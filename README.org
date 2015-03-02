@@ -1,0 +1,15 @@
+
+* gh-tracker
+
+** Overview
+
+  A simple project to play around with [[angularjs.org][angular.js]] while simultaneously
+  exploring the language statistics, as derived from public [[http://github.com][github]]
+  activity, of past and present [[http://theironyard.com][Iron Yard]] students.
+
+** How it works
+
+   Simply add repositories and associate them with tags to indicate
+   things like location, cohort, course. We can then filter and
+   receive both individual and aggregate language statistics after
+   filtering by tags and time.
