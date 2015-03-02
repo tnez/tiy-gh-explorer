@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require angular.min
 //= require underscore-min
+//= require welcome
 //= require_tree .
