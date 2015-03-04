@@ -1,6 +1,7 @@
 json.array! @commits do |commit|
-  json.studentId comment.student_id
-  json.sha comment.sha
-  json.url comment.url
-  json.timestamp comment.commit_timestamp
+  json.studentId commit.student_id
+  json.message commit.message
+  json.sha commit.sha
+  json.url commit.url
+  json.timestamp commit.commit_timestamp
 end
