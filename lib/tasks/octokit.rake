@@ -14,11 +14,12 @@ namespace :octokit do
       puts "Getting commits for #{ student.github_user }"
       # get the timestamp of the last commit in our database (or nil
       # if no commits were found)
-      if (last_commit = student.commits.last)
+      if (last_commit = student.commits.first)
         last_timestamp = last_commit.commit_timestamp
       else
         last_timestamp = "January 5th, 2015 12:00 AM EST".to_time
       end
+      puts " - last timestamp: #{ last_timestamp }"
       # ask github for all commits for this user after this last
       # timestamp and add them to our database... because the github
       # API uses pagination, we will need to step back through the
