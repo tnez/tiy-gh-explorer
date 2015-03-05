@@ -24,6 +24,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # we want to use the github API, and they provide this Ruby interface
 # which is kinda awesome-pants
 gem 'octokit'
+# and also the netrc gem so we can authenticate without puttin' our
+# deets in the stuff
+gem 'netrc'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
